@@ -1,0 +1,14 @@
+<form class="form" [formGroup]="userForm" (ngSubmit)="saveUser(userForm)">
+  <h2>ADD a Product</h2>
+  <h6 > enter the Product name </h6>
+   <input formControlName="nom" />
+  <h6> enter the Product price </h6>
+  <input formControlName="prix"  />
+  <h6> add a  description  </h6>
+  <input formControlName="description"  />
+  <button>Submit </button>
+  <div>
+    <span class="fa fa-phone"></span>001 1023 567
+    <span class="fa fa-envelope-o"></span> Turnburn@gmail.com
+  </div>
+</form>
